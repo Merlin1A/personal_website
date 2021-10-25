@@ -10,7 +10,9 @@ const server = http.createServer(function (req, res) {
     res.end();
 });
 
+const PORT = process.env.PORT || 80;
+
 // server is listening to incoming requests on port 3000 on localhost
-server.listen(3000, function () {
-    console.log("Listening on port http://localhost:3000");
+server.listen(PORT, function () {
+    console.log("Listening on port http://localhost:" + PORT);
 });
