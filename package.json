@@ -1,0 +1,19 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "A personal website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merlin1A/personal_website.git"
+  },
+  "author": "Jesse Brookins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merlin1A/personal_website/issues"
+  },
+  "homepage": "https://github.com/Merlin1A/personal_website#readme"
+}
