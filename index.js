@@ -1,9 +1,9 @@
 // http is an inbuilt module in Node.js
-const https = require('https');
+const http = require('http');
 
 // createServer method takes a callback function as argument
 // the callback function takes two arguments req and re
-const server = https.createServer(function (req, res) {
+const server = http.createServer(function (req, res) {
     console.log(`${req.method} request received at ${req.url}`);
     if (req.url === '/html') {
         res.setHeader('Content-Type', 'text/html');
