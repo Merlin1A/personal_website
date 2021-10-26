@@ -4,7 +4,7 @@
   "description": "A personal website ",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Merlin1A/personal_website/issues"
   },
-  "homepage": "https://github.com/Merlin1A/personal_website#readme"
+  "homepage": "https://github.com/Merlin1A/personal_website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.5.0"
+  }
 }
